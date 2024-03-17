@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
+import Recipes from "./components/recipes/Recipes";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="container mx-auto">
         <Header></Header>
         <Hero></Hero>
+        <Recipes></Recipes>
       </div>
     </>
   );

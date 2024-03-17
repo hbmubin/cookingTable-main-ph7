@@ -1,0 +1,90 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_name": "Thai Basil Chicken Stir-Fry",
+    "recipe_image": "https://i.ibb.co/Fx9z5Jj/25-Minute-Black-Pepper-Jalapen-o-Basil-Chicken-Stir-Fry-1-500x500.jpg",
+    "short_description": "A flavorful Thai-inspired stir-fry dish with tender chicken, fragrant basil, and savory sauce.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaves",
+      "400 g mushroom"
+    ],
+    "ingredients_length": 4,
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Mediterranean Quinoa Salad",
+    "recipe_image": "https://i.ibb.co/vYSMF1S/download.jpg",
+    "short_description": "A refreshing salad bursting with Mediterranean flavors, featuring quinoa, olives, tomatoes, and feta cheese.",
+    "ingredients": [
+      "1 cup quinoa",
+      "200 g cherry tomatoes",
+      "100 g cucumber",
+      "50 g Kalamata olives",
+      "100 g feta cheese"
+    ],
+    "ingredients_length": 5,
+    "preparing_time": 25,
+    "calories": 250
+  },
+  {
+    "recipe_id": 3,
+    "recipe_name": "Creamy Mushroom Risotto",
+    "recipe_image": "https://i.ibb.co/sgvzv0S/creamy-mushroom-risotto-threeolivesbranch-6-500x375.jpghttps://i.ibb.co/sgvzv0S/creamy-mushroom-risotto-threeolivesbranch-6-500x375.jpg",
+    "short_description": "Indulge in this rich and creamy risotto packed with earthy mushrooms and aromatic herbs.",
+    "ingredients": [
+      "300 g Arborio rice",
+      "500 g mixed mushrooms",
+      "1 L vegetable broth",
+      "100 ml white wine"
+    ],
+    "ingredients_length": 4,
+    "preparing_time": 40,
+    "calories": 380
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Classic Beef Lasagna",
+    "recipe_image": "https://i.ibb.co/r7vb2W3/download-1.jpg",
+    "short_description": "Layers of tender lasagna noodles, savory beef Bolognese sauce, and creamy cheese, baked to perfection.",
+    "ingredients": [
+      "400 g lasagna noodles",
+      "500 g ground beef",
+      "600 ml marinara sauce",
+      "250 g mozzarella cheese",
+      "100 g Parmesan cheese"
+    ],
+    "ingredients_length": 5,
+    "preparing_time": 75,
+    "calories": 450
+  },
+  {
+    "recipe_id": 5,
+    "recipe_name": "Spicy Shrimp Tacos",
+    "recipe_image": "https://i.ibb.co/WnJY6fG/download-2.jpg",
+    "short_description": "Kick up the heat with these zesty shrimp tacos featuring spicy marinated shrimp, crisp slaw, and creamy avocado.",
+    "ingredients": [
+      "400 g shrimp",
+      "8 tortillas",
+      "100 g cabbage",
+      "1 avocado",
+      "50 g sour cream"
+    ],
+    "ingredients_length": 5,
+    "preparing_time": 20,
+    "calories": 280
+  },
+  {
+    "recipe_id": 6,
+    "recipe_name": "Blueberry Oatmeal Breakfast Muffins",
+    "recipe_image": "https://i.ibb.co/JFDvWf9/download-3.jpg",
+    "short_description": "Start your day right with these wholesome and delicious blueberry oatmeal muffins, perfect for breakfast on the go.",
+    "ingredients": ["200 g rolled oats", "150 g blueberries", "200 ml milk"],
+    "ingredients_length": 3,
+    "preparing_time": 35,
+    "calories": 180
+  }
+]

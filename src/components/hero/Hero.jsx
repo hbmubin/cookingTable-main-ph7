@@ -15,7 +15,7 @@ const Hero = () => {
               for both palate and physique.
             </p>
             <button className="btn bg-green-500">Explore Now</button>
-            <button className="btn bg-transparent text-white ml-4">
+            <button className="btn bg-transparent text-white ml-4 hover:text-stone-600">
               Our Feedback
             </button>
           </div>
