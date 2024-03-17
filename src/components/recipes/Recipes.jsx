@@ -12,7 +12,7 @@ const Recipes = () => {
     if (!isExists) {
       setCart([...carts, pd]);
     } else {
-      toast.success("Item already added");
+      toast.success("Item already added to preparing");
     }
   }
   return (
@@ -28,7 +28,7 @@ const Recipes = () => {
       </div>
       <div className="flex">
         <Items addToCook={addToCook}></Items>
-        <Cart carts={carts}></Cart>
+        <Cart carts={carts} setCart={setCart}></Cart>
       </div>
     </main>
   );

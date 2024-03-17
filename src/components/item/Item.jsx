@@ -19,16 +19,24 @@ const Item = ({ item, addToCook }) => {
       </figure>
       <div className="card-body">
         <h2 className="card-title">{recipe_name}</h2>
-        <p>{short_description}</p>
+        <p className="text-slate-600 mb-3">{short_description}</p>
         <div>
-          <h2>Ingredients{ingredients_length}</h2>
-          <ul>
+          <hr />
+          <h2 className="text-xl mt-4">Ingredients : {ingredients_length}</h2>
+          <ul className="ml-4 mb-4 mt-2">
             {ingredients.map((ingredient, idx) => (
-              <li key={idx}>{ingredient}</li>
+              <li
+                style={{ listStyle: "disc" }}
+                className="text-slate-600"
+                key={idx}
+              >
+                {ingredient}
+              </li>
             ))}
           </ul>
         </div>
-        <div className="flex">
+        <hr />
+        <div className="flex my-4">
           <p className="flex">
             <span>
               <img className="w-5 mr-2" src={clock} />
