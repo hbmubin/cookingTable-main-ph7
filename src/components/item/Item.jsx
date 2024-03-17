@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import fire from "../../assets/Daco_5794238.png";
 import clock from "../../assets/—Pngtree—vector clock icon_3785539.png";
 
-const Item = ({ item }) => {
+const Item = ({ item, addToCook }) => {
   const {
     recipe_name,
     recipe_image,
@@ -31,19 +31,21 @@ const Item = ({ item }) => {
         <div className="flex">
           <p className="flex">
             <span>
-              <img className="w-5" src={clock} />
+              <img className="w-5 mr-2" src={clock} />
             </span>
             {preparing_time} minutes
           </p>
           <p className="flex">
             <span>
-              <img className="w-3" src={fire} />
+              <img className="w-3 mr-2" src={fire} />
             </span>
             {calories} calories
           </p>
         </div>
         <div className="card-actions">
-          <button className="btn btn-primary">Buy Now</button>
+          <button onClick={() => addToCook(item)} className="btn bg-green-500">
+            Want to Cook
+          </button>
         </div>
       </div>
     </div>
@@ -52,6 +54,7 @@ const Item = ({ item }) => {
 
 Item.propTypes = {
   item: PropTypes.object,
+  //   addToCart: PropTypes.func,
 };
 
 export default Item;

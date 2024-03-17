@@ -1,8 +1,23 @@
 // import PropTypes from "prop-types";
 import Items from "../items/Items";
+import Cart from "../cart/Cart";
+import { useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
+
 const Recipes = () => {
+  const [carts, setCart] = useState([]);
+
+  function addToCook(pd) {
+    const isExists = carts.find((p) => p.recipe_id == pd.recipe_id);
+    if (!isExists) {
+      setCart([...carts, pd]);
+    } else {
+      toast.success("Item already added");
+    }
+  }
   return (
     <main>
+      <Toaster />
       <div className="pt-24 pb-12 w-[623px] text-center mx-auto">
         <h2 className="text-4xl font-semibold mb-6">Our Recipes</h2>
         <p className="text-stone-500 ">
@@ -11,7 +26,10 @@ const Recipes = () => {
           and simple yet elegant techniques.
         </p>
       </div>
-      <Items></Items>
+      <div className="flex">
+        <Items addToCook={addToCook}></Items>
+        <Cart carts={carts}></Cart>
+      </div>
     </main>
   );
 };
