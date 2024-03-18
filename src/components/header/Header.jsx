@@ -1,8 +1,8 @@
 import Profile from "../../assets/Frame 5.png";
 const Header = () => {
   return (
-    <header>
-      <div className="md:navbar bg-base-100 justify-between py-6">
+    <header className="py-6">
+      <div className="md:navbar bg-base-100 justify-between">
         <div className="">
           <a className="btn btn-ghost text-3xl">Calorie Crafters</a>
         </div>
