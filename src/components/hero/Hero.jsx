@@ -1,8 +1,8 @@
 import "./hero.css";
 const Hero = () => {
   return (
-    <div>
-      <div style={{ minHeight: "600px" }} className="hero min-h-screen">
+    <div className="md:p-0 px-4">
+      <div style={{ minHeight: "600px" }} className="hero">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-[800px]">

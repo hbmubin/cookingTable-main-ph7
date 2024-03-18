@@ -30,7 +30,7 @@ const Cart = ({ carts, setCart }) => {
         </div>
         <hr />
         <div className="mt-3">
-          <table>
+          <table className="mx-auto">
             <tbody>
               <tr className="text-stone-500">
                 <td className="min-w-10 py-4"></td>
@@ -58,7 +58,7 @@ const Cart = ({ carts, setCart }) => {
         </div>
         <hr />
         <div className="mt-3">
-          <table>
+          <table className="mx-auto">
             <tbody>
               <tr className="text-stone-500">
                 <td className="min-w-10 py-4"></td>

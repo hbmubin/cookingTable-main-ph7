@@ -6,7 +6,7 @@ import Recipes from "./components/recipes/Recipes";
 function App() {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="md:container mx-auto">
         <Header></Header>
         <Hero></Hero>
         <Recipes></Recipes>

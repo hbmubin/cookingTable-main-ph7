@@ -12,7 +12,7 @@ const Items = ({ addToCook }) => {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 w-2/3 gap-4">
+    <div className="grid md:grid-cols-2 grid-cols-1 md:w-2/3 gap-4 md:mb-0 mb-8">
       {items.map((item) => (
         <Item key={item.recipe_id} item={item} addToCook={addToCook}></Item>
       ))}

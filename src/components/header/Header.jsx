@@ -2,11 +2,11 @@ import Profile from "../../assets/Frame 5.png";
 const Header = () => {
   return (
     <header>
-      <div className="navbar bg-base-100 justify-between py-6">
+      <div className="md:navbar bg-base-100 justify-between py-6">
         <div className="">
           <a className="btn btn-ghost text-3xl">Calorie Crafters</a>
         </div>
-        <div>
+        <div className="md:w-auto md:h-auto h-0 w-0 overflow-hidden">
           <ul className="flex gap-5 text-stone-600">
             <li>Home</li>
             <li>Recipes</li>
@@ -14,12 +14,12 @@ const Header = () => {
             <li>Search</li>
           </ul>
         </div>
-        <div className="flex-none gap-2">
+        <div className="md:flex-none md:flex-row flex flex-col-reverse gap-2 items-center">
           <div className="form-control">
             <input
               type="text"
               placeholder="Search"
-              className="input input-bordered w-24 md:w-auto"
+              className="input input-bordered w-40 md:w-auto"
             />
           </div>
           <div className="dropdown dropdown-end">
