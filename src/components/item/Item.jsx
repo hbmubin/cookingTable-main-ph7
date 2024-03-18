@@ -60,9 +60,4 @@ const Item = ({ item, addToCook }) => {
   );
 };
 
-Item.propTypes = {
-  item: PropTypes.object,
-  //   addToCart: PropTypes.func,
-};
-
 export default Item;

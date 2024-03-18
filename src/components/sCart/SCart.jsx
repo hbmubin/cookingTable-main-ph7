@@ -1,5 +1,3 @@
-// import PropTypes from 'prop-types'
-
 const SCart = ({ cart, idx, addToPrepare }) => {
   const { recipe_name, preparing_time, calories } = cart;
 
@@ -17,7 +15,5 @@ const SCart = ({ cart, idx, addToPrepare }) => {
     </tr>
   );
 };
-
-// SCart.propTypes = {}
 
 export default SCart;

@@ -1,4 +1,3 @@
-// import PropTypes from "prop-types";
 import Items from "../items/Items";
 import Cart from "../cart/Cart";
 import { useState } from "react";
@@ -33,9 +32,5 @@ const Recipes = () => {
     </main>
   );
 };
-
-// Recipes.propTypes = {
-//   props: PropTypes.func,
-// };
 
 export default Recipes;

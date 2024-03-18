@@ -12,6 +12,4 @@ const PCart = ({ pCart, idx }) => {
   );
 };
 
-// PCart.propTypes = {};
-
 export default PCart;
